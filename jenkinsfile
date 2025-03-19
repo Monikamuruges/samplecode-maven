@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage("Build") {
             steps {
-                git branch: 'main', url: 'https://github.com/dhivyasubbu06/sample.git'
+                git branch: 'main', url: 'https://github.com/Monikamuruges/samplecode-maven.git'
             }
         }
         stage("Test") {
