@@ -7,7 +7,6 @@
   <groupId>com.sampleproj</groupId>
   <artifactId>sampleproject1</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <packaging>war</packaging>
 
   <name>sampleproject1</name>
   <!-- FIXME change it to the project's website -->
