@@ -1,0 +1,20 @@
+pipeline {
+    agent any
+    stages {
+        stage("Build") {
+            steps {
+                git branch: 'main', url: 'https://github.com/dhivyasubbu06/sample.git'
+            }
+        }
+        stage("Test") {
+            steps {
+                echo "Testing"
+            }
+        }
+        stage("Deploying") {
+            steps {
+                echo "Deploying"
+            }
+        }
+    }
+}
